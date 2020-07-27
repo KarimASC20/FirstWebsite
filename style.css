@@ -1,0 +1,110 @@
+body{
+  background-color: rgb(220,220,220);
+  color: rgb(0, 0, 0);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #ff5e00;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover { 
+    background-color: yellow;
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+  
+.Welcome{
+  display:Flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.Welcome img{
+  height: 100px;
+  width: 100px;
+}
+.game{
+  display:flex;
+  flex-flow: column wrap;
+  align-items: center;
+  border-style:solid;
+  border-color: rgb(0, 0, 0);
+  padding:25px;
+}
+.game img{
+ height: 200px;
+  width: 200px;
+}
+
+.game2 img{
+  height: 200px;
+  width: 200px;
+}
+
+.game2{
+  display:flex;
+  flex-flow: column wrap;
+  align-items: center;
+  border-style:solid;
+  border-color: rgb(0, 0, 0);
+  padding:25px;
+}
+h3{
+  display:flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding:25px;
+}
+.game3{
+display:flex;
+  flex-flow: column wrap;
+  align-items: center;
+  border-style:solid;
+  border-color: rgb(0, 0, 0);
+  padding:25px;
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.bottomnav {
+    background-color:#e47aff;
+    overflow: hidden;
+}
+.bottomnav a {
+    float: none;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 150px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+.bottomnav img{
+   height: 200px;
+  width: 200px;
+   display:flex;
+
+  
+}
